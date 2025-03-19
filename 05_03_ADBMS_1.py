@@ -45,5 +45,4 @@ cursor.execute("SELECT * FROM Teaches")
 for row in cursor.fetchall():
 	print(row)
 # Closing the connection
-cursor.close()
-conn.close()
+
